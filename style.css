@@ -5,3 +5,60 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    min-width: 576px;
+    height: 55px;
+}
+
+.container {
+    width: 500px;
+    padding: 10px 15px;
+}
+
+.header-style  {
+    background-color: #0084FD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-style i {
+    color: white;
+    font-size: 20px;
+}
+
+.double-box {
+    height: 100%;
+}
+
+
+.box-style img {
+    height: 250px;
+   
+}
+
+.app-store button {
+    border: none;
+    padding: 10px 100px;
+    background-color:#0084FD;
+    border-radius: 40px;
+}
+
+.image {
+    height: 100%;
+    
+    
+}
+
+
+.box-style {
+    background-color: #B5DDFF;
+    padding: 20px 15px;
+    border-radius: 20px; 
+    margin: 20px 10px 15px 15px;
+}
+
+.box-style div {
+    padding: 20px 20px;
+}
