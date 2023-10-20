@@ -113,10 +113,24 @@ header {
 }
 
 .box-violet > img {
-    max-height: 130px;
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
     border-radius: 100%;
 }
 .small-radius {
     border-radius: 15px;
 }
 
+.about-us > img {
+    height: 130px;
+    width: 130px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 15px;
+}
+
+.black {
+    background-color:#333333;
+    color: white;
+}
