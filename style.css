@@ -54,7 +54,7 @@ header {
 .box-style {
     background-color: #B5DDFF;
     padding: 20px 15px;
-    border-radius: 20px; 
+    border-radius: 15px; 
     margin: 20px 10px 15px 15px;
     text-align: center;
 }
@@ -94,15 +94,20 @@ header {
 .box-white {
     background-color: #ffffff;
     padding: 20px 15px;
-    border-radius: 50px; 
+    /* border-radius: 50px;  */
     margin: 20px 10px 55px 15px;
     text-align: center;
+}
+
+.big-radius {
+    border-radius: 40px;
+
 }
 
 .box-violet {
     background-color: #9792E4;
     padding: 20px 15px;
-    border-radius: 50px; 
+    /* border-radius: 50px;  */
     margin: 20px 10px 15px 15px;
     text-align: center;
 }
@@ -110,5 +115,8 @@ header {
 .box-violet > img {
     max-height: 130px;
     border-radius: 100%;
+}
+.small-radius {
+    border-radius: 15px;
 }
 
