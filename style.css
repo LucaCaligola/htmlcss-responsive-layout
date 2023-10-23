@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
 header {
     min-width: 500px;
     height: 55px;
@@ -30,12 +34,12 @@ header {
 
 .double-box {
     height: 100%;
+ 
 }
 
 
 .box-style img {
     height: 250px;
-   
 }
 
 .app-store button {
@@ -43,8 +47,11 @@ header {
     padding: 10px 100px;
     background-color:#0084FD;
     border-radius: 40px;
-    color: white;
+    color: white;  
+    font-size: 18px;
+    margin: 30px;
 }
+
 
 .image {
     height: 100%; 
@@ -53,22 +60,30 @@ header {
 
 .box-style {
     background-color: #B5DDFF;
-    padding: 20px 15px;
+    padding: 0px 20px 0px 20px;
     border-radius: 15px; 
-    margin: 20px 10px 15px 15px;
-    text-align: center;
+    margin: 20px 10px 0px 15px; 
+}
+
+.box-style h2 {
+    padding: 20px 0px;
+    color: #007DFC;
 }
 
 .box-style div {
-    padding: 20px 20px;
+    padding-top: 20px;
 }
 
 .box-style i {
    font-size: 100px;
+   color: #007DFC;
+  
 }
 
 .single-box {
     height: 50%;
+    padding: 30px 30px;
+    text-align: center;
 }
 
 .margin-bottom {
@@ -79,11 +94,19 @@ header {
     background-color: #9792E4 ;
 }
 
+.flex-image img {
+    width: 250px;
+}
 
 .flex-image {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+
 .violet div img {
     height: 350px;
     margin: 60px 0px;
